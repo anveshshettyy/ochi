@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('./assets/Fonts/FoundersGrotesk-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-founders-grotesk {
+    font-family: 'Founders Grotesk', sans-serif;
+}
